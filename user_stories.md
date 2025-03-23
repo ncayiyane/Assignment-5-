@@ -1,0 +1,21 @@
+# User Stories
+
+## User Story Table
+
+| Story ID | User Story | Acceptance Criteria | Priority |
+|----------|------------|---------------------|----------|
+| US-001 | As a patient, I want to book appointments online so that I can schedule medical visits without making phone calls. | - Booking completes in under 3 steps<br>- Available time slots clearly displayed<br>- Confirmation received within 1 minute<br>- Doctor details visible before booking | High |
+| US-002 | As a patient, I want to receive appointment reminders so that I don't forget my scheduled visits. | - SMS/email reminders sent 24 hours before appointment<br>- Reminders include date, time, doctor name, and location<br>- Option to confirm or reschedule from reminder | High |
+| US-003 | As a patient, I want to sync appointments with my personal calendar so that I can manage all my schedules in one place. | - One-click sync with Google/Apple/Outlook calendars<br>- Updates reflect within 5 minutes<br>- Calendar entries include all appointment details | Medium |
+| US-004 | As a patient, I want to rate and review my appointments so that I can provide feedback on my experience. | - Rating system (1-5 stars)<br>- Optional text feedback field<br>- Submission confirmation<br>- Ability to edit review within 48 hours | Medium |
+| US-005 | As a doctor, I want to set my availability schedule so that patients can only book during my working hours. | - Weekly/monthly view options<br>- Ability to block time slots<br>- Recurring availability patterns<br>- Changes apply within 1 minute | High |
+| US-006 | As a doctor, I want to view my upcoming appointments so that I can prepare for patient visits. | - Daily/weekly view options<br>- Patient details accessible<br>- Appointment duration displayed<br>- Filter by appointment type | High |
+| US-007 | As a doctor, I want to receive notifications about schedule changes so that I'm aware of cancellations or new bookings. | - Real-time notifications<br>- Notification preferences customizable<br>- Clear indication of change type<br>- Link to affected appointment | Medium |
+| US-008 | As a receptionist, I want to manage patient bookings so that I can assist patients who call or visit in person. | - Quick search for patient records<br>- View all available slots<br>- Complete booking in under 30 seconds<br>- Modify/cancel existing appointments | High |
+| US-009 | As a receptionist, I want to update patient information so that records remain accurate and current. | - Edit all patient fields<br>- History of changes tracked<br>- Validation of critical fields (phone, email)<br>- Confirmation before saving changes | Medium |
+| US-010 | As an admin, I want to generate usage reports so that I can analyze system performance and appointment trends. | - Multiple report types available<br>- Filter by date range, doctor, department<br>- Export to CSV/PDF<br>- Visual graphs and charts included | Medium |
+| US-011 | As an admin, I want to manage user accounts so that I can control system access and permissions. | - Create/modify/deactivate accounts<br>- Role-based permission assignment<br>- Password reset functionality<br>- Account activity logs | High |
+| US-012 | As an IT support staff, I want to monitor system performance so that I can identify and address issues proactively. | - Real-time performance dashboard<br>- Automated alerts for critical metrics<br>- Historical performance data<br>- Resource utilization graphs | High |
+| US-013 | As a system administrator, I want patient data to be encrypted so that security compliance requirements are met. | - AES-256 encryption for all patient data<br>- Encrypted data in transit and at rest<br>- Regular security audit logs<br>- Compliance with HIPAA standards | High |
+| US-014 | As a patient, I want to view my appointment history so that I can track my past medical visits. | - Chronological list of past appointments<br>- Filter by date range or doctor<br>- Details include diagnosis and prescriptions<br>- Option to request medical records | Low |
+| US-015 | As a doctor, I want to access patient medical history before appointments so that I can provide informed care. | - One-click access to patient records<br>- Comprehensive medical history view<br>- Allergies and medications highlighted<br>- Previous visit summaries | High |
